@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card h1 {
+    color: #ff007f;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.heart {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 16px;
+    color: #888;
+    font-style: italic;
+}
+
+.cta {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #e6006c;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
